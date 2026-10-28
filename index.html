@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare simple, flexible plans for your next big idea.">
+  <meta name="theme-color" content="#f1f7f5">
+  <title>Pricing Plans | Jeewan Bhatt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#plans">Skip to pricing plans</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Jeewan Bhatt pricing page"><span class="brand-mark" aria-hidden="true">JB</span><span>Jeewan Bhatt</span></a>
+    <a class="header-link" href="#plans">PROJECT 03 <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="pricing-intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PROJECT 03 / PRICING CONCEPT</p>
+      <h1 id="page-title">Choose a plan.<br><em>Make it yours.</em></h1>
+      <p class="intro-copy">Three simple options for your next idea: start with the basics, make room to grow, or bring your team along.</p>
+
+      <div class="billing-area">
+        <div class="billing-toggle" role="group" aria-label="Choose billing period">
+          <button class="billing-option is-active" id="monthly-button" type="button" data-period="monthly" aria-pressed="true">Monthly</button>
+          <button class="billing-option" id="yearly-button" type="button" data-period="yearly" aria-pressed="false">Yearly</button>
+        </div>
+        <span class="savings-note" id="savings-note"><span aria-hidden="true">✳</span> Save 20% on paid plans</span>
+      </div>
+    </section>
+
+    <section class="plans-section" id="plans" aria-labelledby="plans-heading">
+      <h2 id="plans-heading" class="visually-hidden">Choose a plan</h2>
+      <div class="plans-grid">
+        <article class="plan-card plan-starter" aria-labelledby="starter-title">
+          <div class="plan-card-top"><span class="plan-kicker">A good place to start</span><span class="plan-index" aria-hidden="true">01</span></div>
+          <h3 id="starter-title">Starter</h3>
+          <p class="plan-description">For your first ideas and side projects.</p>
+          <div class="price-line"><span class="currency" aria-hidden="true">$</span><span class="price" data-monthly="0" data-yearly="0" aria-live="polite">0</span></div>
+          <p class="price-unit" data-unit>per month</p>
+          <button class="plan-cta cta-outline" type="button" data-select-plan="Starter">Start for free <span aria-hidden="true">↗</span></button>
+          <div class="feature-divider"></div>
+          <p class="features-title">INCLUDES</p>
+          <ul class="feature-list">
+            <li><span aria-hidden="true">✓</span> 1 personal workspace</li>
+            <li><span aria-hidden="true">✓</span> Up to 3 projects</li>
+            <li><span aria-hidden="true">✓</span> Essential templates</li>
+            <li><span aria-hidden="true">✓</span> 1 GB file storage</li>
+            <li><span aria-hidden="true">✓</span> Community support</li>
+          </ul>
+        </article>
+
+        <article class="plan-card plan-popular" aria-labelledby="pro-title">
+          <span class="plan-ribbon ribbon-popular">MOST POPULAR</span>
+          <div class="plan-card-top"><span class="plan-kicker">For your next big leap</span><span class="plan-index" aria-hidden="true">02</span></div>
+          <h3 id="pro-title">Pro</h3>
+          <p class="plan-description">For builders ready for more room.</p>
+          <div class="price-line"><span class="currency" aria-hidden="true">$</span><span class="price" data-monthly="15" data-yearly="144" aria-live="polite">15</span></div>
+          <p class="price-unit" data-unit>per month</p>
+          <button class="plan-cta cta-filled" type="button" data-select-plan="Pro">Choose Pro <span aria-hidden="true">↗</span></button>
+          <div class="feature-divider"></div>
+          <p class="features-title">EVERYTHING IN STARTER, PLUS</p>
+          <ul class="feature-list">
+            <li><span aria-hidden="true">✓</span> Unlimited projects</li>
+            <li><span aria-hidden="true">✓</span> Pro templates &amp; themes</li>
+            <li><span aria-hidden="true">✓</span> 20 GB file storage</li>
+            <li><span aria-hidden="true">✓</span> Project insights</li>
+            <li><span aria-hidden="true">✓</span> Priority email support</li>
+          </ul>
+        </article>
+
+        <article class="plan-card plan-team" aria-labelledby="team-title">
+          <span class="plan-ribbon ribbon-value">BEST VALUE</span>
+          <div class="plan-card-top"><span class="plan-kicker">Better, together</span><span class="plan-index" aria-hidden="true">03</span></div>
+          <h3 id="team-title">Team</h3>
+          <p class="plan-description">For good ideas made together.</p>
+          <div class="price-line"><span class="currency" aria-hidden="true">$</span><span class="price" data-monthly="30" data-yearly="288" aria-live="polite">30</span></div>
+          <p class="price-unit" data-unit>per month</p>
+          <button class="plan-cta cta-outline" type="button" data-select-plan="Team">Build together <span aria-hidden="true">↗</span></button>
+          <div class="feature-divider"></div>
+          <p class="features-title">EVERYTHING IN PRO, PLUS</p>
+          <ul class="feature-list">
+            <li><span aria-hidden="true">✓</span> Up to 5 team members</li>
+            <li><span aria-hidden="true">✓</span> Shared team workspace</li>
+            <li><span aria-hidden="true">✓</span> 100 GB team storage</li>
+            <li><span aria-hidden="true">✓</span> Team activity reports</li>
+            <li><span aria-hidden="true">✓</span> Dedicated support</li>
+          </ul>
+        </article>
+      </div>
+      <p class="selection-message" id="selection-message" aria-live="polite"></p>
+    </section>
+
+    <footer class="page-footer"><span>A PRICING PAGE BY JEEWAN BHATT</span><span>SAMPLE PRICES · STUDENT PROJECT</span></footer>
+  </main>
+</body>
+</html>
+
+
